@@ -72,3 +72,11 @@ li.wBtn {
 	color: pink;
 	text-align: center;
 }
+
+.col-md-6 {
+	padding: 20px 0;
+}
+
+.btn {
+	align:center;
+}
