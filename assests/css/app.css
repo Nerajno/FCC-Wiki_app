@@ -53,4 +53,22 @@ li.wBtn {
 }
 /*End of NavBar Stuff*/
 
+/* Start of Wiki-Content*/
+.wikiContent{
+	background-color: blue;
+	height: auto;
+	width: 70%;
+	margin-left: auto;
+    margin-right:auto;
+    margin-top:4%;
+	}
 
+.fa-free-code-camp{
+	color:#006400;
+}
+
+.header-stuff{
+	font-family: 'Roboto', sans-serif;
+	color: pink;
+	text-align: center;
+}
