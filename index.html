@@ -54,7 +54,7 @@
     </div><!-- end of container -->
   </div><!-- <end of navbar > -->
 
-    <div class="container wikiContent row">
+    <div class="container wikiContent">
       <div class="header-stuff col-md-12"><!-- Head content -->
         <h1>Free<i class="fa fa-free-code-camp" aria-hidden="true"></i>Code Camp</h1>
         <h1><i class="fa fa-wikipedia-w" aria-hidden="true"></i>ikipedia Viewer <i class="fa fa-search" aria-hidden="true"></i></h1>
@@ -62,20 +62,24 @@
 
       <div class="col-md-12" align="center"> <!-- input/ search button -->
         <form class="search">
-          <input type="text" class="query" placeholder="Search here..." required>>
+          <input type="text" class="query" placeholder="Search here..." required>
         </form>
       </div>
-      <div class="container-btn">
-        <button type="button" class="btn btn-default center-block">Search</button>
+      <!-- <div class="container-btn">
+      <button type="button" class="btn btn-default center-block">Search</button>
+    </div> -->
+      <div class="col-md-6">
+        <button type="button" class="btn btn-default center-block">Search <i class="fa fa-search-plus" aria-hidden="true"></i></button>
       </div>
       <div class="col-md-6">
-        <button type="button" class="btn btn-default center-block">I am Feeling Lucky </button>
+        <!-- This button opens to a randon article on wikipedia -->
+        <button type="button" class="btn btn-default center-block"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">I am Feeling Lucky <i class="fa fa-random" aria-hidden="true"></i></a></button>
       </div>
       </div>
       <div class="" id="results">
-        
+
       </div>
-    </div>
+
 
   </body>
   </html>
