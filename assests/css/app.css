@@ -55,7 +55,7 @@ li.wBtn {
 
 /* Start of Wiki-Content*/
 .wikiContent{
-	background-color: blue;
+	/*background-color: blue;*/
 	height: auto;
 	width: 70%;
 	margin-left: auto;
@@ -79,4 +79,8 @@ li.wBtn {
 
 .btn {
 	align:center;
+}
+
+#output{
+ color: white; 
 }
