@@ -81,6 +81,11 @@ li.wBtn {
 	align:center;
 }
 
+#results{
+ margin: auto;
+  width: 60%;
+}
+
 #output{
- color: white; 
+ color: white;
 }
