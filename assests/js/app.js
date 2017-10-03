@@ -28,6 +28,7 @@ $(document).ready(function() {
         }
         console.log(data);
         // NOTE: This clears the search term box when the data is delivered.
+
       },
       error: function(errorMessage) {
         alert("Error, Api not connected");
@@ -35,12 +36,17 @@ $(document).ready(function() {
     });
 
   });
-
-  $("#searchTerm").keypress(function(e) {
-    if (e.which == 13) {
+  $("#searchTerm").keyup(function(event) {
+    if (event.keyCode == 13) {
       $("#search").click();
     }
   });
+
+  // trigger submit on use of enter key
+
 });
+
+
+
 
 // NOTE: I need to ensure that the Enter key and search btn are the same thing.
