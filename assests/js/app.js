@@ -23,8 +23,8 @@ $(document).ready(function() {
         // NOTE: This clears the old search results when the scripts runs each time.
         $('#output').html('');
         //Need to understand this but it wrks
-        for (var i = 0; i < data.length; i++) {
-          $('#output').prepend("<li><a href=" + data[1][i] + ">" + data[3][i] + "</a><p>" + data[2][i] + "</p></li>");
+        for (var i = 0; i < data[1].length; i++){
+          $('#output').prepend("<li><a href=" + data[3][i] + ">" + data[1][i] + "</a><p>" + data[2][i] + '</p></li>');
         }
         console.log(data);
         // NOTE: This clears the search term box when the data is delivered.
@@ -35,8 +35,9 @@ $(document).ready(function() {
       }
     });
     $("#searchTerm").keyup(function(event) {
-      if (event.keyCode == 13) {
-        $("#search").click();
+      if (event.keyCode ===13) {
+      $("#search").click();
+      event.preventDefault();
       }
     });
   });
