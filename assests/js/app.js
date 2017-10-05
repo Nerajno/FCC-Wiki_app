@@ -34,13 +34,13 @@ $(document).ready(function() {
         alert("Error, Api not connected");
       }
     });
+    $("#searchTerm").keyup(function(event) {
+      if (event.keyCode == 13) {
+        $("#search").click();
+      }
+    });
+  });
 
-  });
-  $("#searchTerm").keyup(function(event) {
-    if (event.keyCode == 13) {
-      $("#search").click();
-    }
-  });
 
   // trigger submit on use of enter key
 
