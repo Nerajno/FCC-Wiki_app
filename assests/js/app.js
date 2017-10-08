@@ -24,7 +24,7 @@ $(document).ready(function() {
         $('#output').html('');
         //Need to understand this but it wrks
         for (var i = 0; i < data[1].length; i++){
-          $('#output').prepend("<li><a href=" + data[3][i] + ">" + data[1][i] + "</a><p>" + data[2][i] + '</p></li>');
+          $('#output').prepend("<a href=" + data[3][i] + ">" + data[1][i] + "</a><p>" + data[2][i] + '</p> ');
         }
         console.log(data);
         // NOTE: This clears the search term box when the data is delivered.
@@ -41,13 +41,6 @@ $(document).ready(function() {
       }
     });
   });
-
-
   // trigger submit on use of enter key
-
 });
-
-
-
-
 // NOTE: I need to ensure that the Enter key and search btn are the same thing.
