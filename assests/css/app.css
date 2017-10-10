@@ -87,14 +87,15 @@ li.wBtn {
   width: 60%;
 }
 
-#output{
+/*#output{
  color: white;
  font-size: medium;
  text-align: justify;
  background-color: #3399ff;
  padding: 3%;
  border-radius: 7px;
-}
+
+}*/
 
 /*Search Box = Icon fix*/
 input {
@@ -141,3 +142,20 @@ input:-moz-placeholder {
 input::-webkit-input-placeholder {
 	color: #999;
 }
+
+.card {
+  color: white;
+  font-size: medium;
+  text-align: justify;
+  background-color: #3399ff;
+  padding: 3%;
+  border-radius: 7px;
+  margin: 25px;
+}
+
+.highlight {
+    text-decoration: none;
+    color: #EAB159;
+    padding: 5px;
+}
+/* FIXME: need to fix the button without bckgrnd or rather the panel */
