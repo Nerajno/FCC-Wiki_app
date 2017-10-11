@@ -19,7 +19,7 @@ $(document).ready(function() {
         //Need to understand this but it wrks
         for (var i = 0; i < data[1].length; i++){
         //   $('#output').prepend("<a href=" + data[1][i] + ">" + data[2][i] + "</a><p>" + data[3][i] + '</p> ');
-            $('#output').prepend("<div class='card'><h2>"+ data[1][i]+ "</h2><p>"+ data[2][i] +"</p><a class='highlight' href="+ data[3][i] +"target='_blank'>Read More</a></div>");
+            $('#output').prepend("<div class='card'><h2>"+ data[1][i]+ "</h2><p>"+ data[2][i] +"</p><a class='highlight' href='"+ data[3][i] +"' target='_blank'>Read More</a></div>");
         }
         // NOTE: make the for loop to log the data per panel push the header then the p tag then the a href link
         console.log(data);
