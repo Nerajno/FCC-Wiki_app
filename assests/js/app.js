@@ -15,7 +15,8 @@ $(document).ready(function() {
         $('#output').html('');
         for (var i = 0; i < data[1].length; i++) {
           //push the data to the end.
-          $('#output').append("<div class='card'><h2>" + data[1][i] + "</h2><p>" + data[2][i] + "</p><a class='highlight' href='" + data[3][i] + "' target='_blank'>Read More</a></div>");
+          $('#output').append("<div class='card'><h2>" + data[1][i] + "</h2><p>" + data[2][i] +
+           "</p><a class='highlight' href='" + data[3][i] + "' target='_blank'>Read More</a></div>");
         }
         console.log(data);
       },

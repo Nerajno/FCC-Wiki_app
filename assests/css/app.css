@@ -56,7 +56,6 @@ li.wBtn {
 
 /* Start of Wiki-Content*/
 .wikiContent{
-	/*background-color: blue;*/
 	height: auto;
 	width: 70%;
 	margin-left: auto;
@@ -83,9 +82,16 @@ li.wBtn {
 	align:center;
 }
 
+.btn-block{
+  width: 70%;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+/*results section */
 #results{
  margin: auto;
-  width: 60%;
+  width: 70%;
 }
 
 /*Search Box = Icon fix*/
@@ -134,10 +140,10 @@ input::-webkit-input-placeholder {
 }
 
 .card {
-  color: white;
+  color:#3B81BF;
   font-size: medium;
   text-align: justify;
-  background-color: #3399ff;
+  background-color: black;
   padding: 3%;
   border-radius: 7px;
   margin: 25px;
@@ -145,16 +151,15 @@ input::-webkit-input-placeholder {
 
 .highlight {
     text-decoration: none;
-    color: #EAB159;
+    color: #fff;
     padding: 5px;
 }
 
-.btn-block{
-  width: 70%;
-  color:#fff;
-  text-transform:uppercase;
-}
 a{
   color:#fff;
 }
-/* FIXME: need to fix the button without bckgrnd or rather the panel */
+
+/*Footer*/
+.footer{
+  color:#fff;
+}
