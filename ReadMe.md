@@ -2,7 +2,8 @@ Wikipedia Viewer  - Version 0.21
 This is the Wikipedia Viewer  from Free Code Camp's Front Certificate, through it's iteration it has used a couple of ideas and code from other places. The code is abit better than the last challenge and its a bit prettier but it wrks.  
 
 Please right click as Github currents doesn't support open in a new tab
-https://nerajno.github.io/FCC-Wiki_app/
+
+[https://nerajno.github.io/FCC-Wiki_app/]
 
 
 
