@@ -72,6 +72,7 @@ li.wBtn {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	text-align: center;
+  padding-bottom: 7%;
 }
 
 .col-md-6 {
@@ -86,16 +87,6 @@ li.wBtn {
  margin: auto;
   width: 60%;
 }
-
-/*#output{
- color: white;
- font-size: medium;
- text-align: justify;
- background-color: #3399ff;
- padding: 3%;
- border-radius: 7px;
-
-}*/
 
 /*Search Box = Icon fix*/
 input {
@@ -116,7 +107,7 @@ input[type=text] {
 	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	border: solid 1px #ccc;
 	padding: 9px 10px 9px 32px;
-	width: 40%;
+	width: 80%;
 	-webkit-border-radius: 10em;
 	-moz-border-radius: 10em;
 	border-radius: 10em;
@@ -132,9 +123,8 @@ input[type=text]:focus {
 	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	box-shadow: 0 0 5px rgba(109,207,246,.5);
-  width: 40%;
+  width: 70%;
 }
-
 
 input:-moz-placeholder {
 	color: #999;
@@ -157,5 +147,14 @@ input::-webkit-input-placeholder {
     text-decoration: none;
     color: #EAB159;
     padding: 5px;
+}
+
+.btn-block{
+  width: 70%;
+  color:#fff;
+  text-transform:uppercase;
+}
+a{
+  color:#fff;
 }
 /* FIXME: need to fix the button without bckgrnd or rather the panel */
