@@ -41,6 +41,8 @@ position: relative;
 
 }
 
+/* NOTE: make different bckgrnd positions 4 different screen sizes or play around with cover[stretch  it out ] and contain [fit within the width or maybe height]  */
+
 /* Start of Navbar Stuff */
 .navbar-inverse{
   font-family: 'Montserrat', sans-serif;
