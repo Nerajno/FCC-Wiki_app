@@ -1,10 +1,8 @@
-Wikipedia Viewer  - Version 0.21
+Wikipedia Viewer  - Version 0.22
 This is the Wikipedia Viewer  from Free Code Camp's Front Certificate, through it's iteration it has used a couple of ideas and code from other places. The code is abit better than the last challenge and its a bit prettier but it wrks.  
 
 Please right click as Github currents doesn't support open in a new tab
-
 [https://nerajno.github.io/FCC-Wiki_app/]
-
 
 
 ## Built With
@@ -20,3 +18,7 @@ This repository adheres to the MIT License.
 Shout out to following person/s and crews :
 -FCC and FCC ATL
 -Esterling and Toby
+
+##Bugs
+- Background resizes after search
+- The mobile version needs help( Needs a better design for mobile version)

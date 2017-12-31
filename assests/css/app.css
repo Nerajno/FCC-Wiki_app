@@ -19,7 +19,7 @@ background-position: center;
   background-image: url("https://farm5.staticflickr.com/4422/37069229655_a025bda3a7_o.jpg");
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
-  background-size: auto;
+  background-size: cover;
   background-repeat:no-repeat;
   background-position: 50% 50%
   -o-background-size: 100%;
