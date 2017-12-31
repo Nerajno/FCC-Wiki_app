@@ -1,4 +1,6 @@
 var searchTerm;
+// I really need to make better comments... trying to figure out why I defined searchTerm
+
 
 $(document).ready(function() {
   $('#search').click(function() {
