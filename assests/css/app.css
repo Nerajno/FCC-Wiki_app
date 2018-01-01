@@ -41,6 +41,7 @@ background-position: center;
  width: 90vw;
  }
 
+
 }
 
 /* NOTE: make different bckgrnd positions 4 different screen sizes or play around with cover[stretch  it out ] and contain [fit within the width or maybe height]  */
@@ -73,7 +74,7 @@ background-position: center;
 
 .Twtbtn{
   padding: 3px;
-  margin: 5px;
+  margin: 5px;width: 70%;
   border-radius: 7px;
   background-color: black;
   border-color: black;
@@ -104,7 +105,8 @@ li.wBtn {
 	margin-left: auto;
   margin-right:auto;
   margin-top:4%;
-  background-color: rgba(6, 1, 1, 0.48);
+  background-color: rgba(6, 1, 1, 0.75);
+  box-shadow: 0 0 0px 3px #337ab7;
   border-radius: 5px;
 	}
 
@@ -135,8 +137,9 @@ li.wBtn {
 
 /*results section */
 #results{
- margin: auto;
-  width: 70%;
+margin: auto;
+width: 96%;
+/*box-shadow: 0 0 0px 3px #337ab7;*/
 }
 
 /*Search Box = Icon fix*/
@@ -188,7 +191,7 @@ input::-webkit-input-placeholder {
   color:#3B81BF;
   font-size: medium;
   text-align: justify;
-  background-color: black;
+  background-color: rgba(6, 1, 1, 0.75);
   padding: 3%;
   border-radius: 7px;
   margin: 25px;
