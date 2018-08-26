@@ -80,13 +80,6 @@ background-position: center;
   border-color: black;
 }
 
-/*.Twtbtn:hover{
-  transform: scale(2.5);
-}*/
-
-/*.fa-twitter:hover{
-  transform: scale(4) rotate(360deg);
-}*/
 
 .btn-navbar{
   background-color: #f0641f;
@@ -139,7 +132,6 @@ li.wBtn {
 #results{
 margin: auto;
 width: 96%;
-/*box-shadow: 0 0 0px 3px #337ab7;*/
 }
 
 /*Search Box = Icon fix*/
