@@ -10,6 +10,7 @@ padding-top: 25px;
 margin-top: 100px;
 /*position: relative;*/  /* NOTE: this fixed the centering background image issue */
 background-position: center;
+height: 100vh;
 }
 
 /*Smart phones */
@@ -26,6 +27,7 @@ background-position: center;
   padding-top: 25px;
   margin-top: 100px;
   position: relative;
+  height: 100vh;
   }
 
   header-stuff{
