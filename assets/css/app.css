@@ -71,13 +71,17 @@ background-position: center;
   text-transform:uppercase;
 }
 
+ .container-nav{
+  color: white;
+  width: 95%;
+}
 
 .Twtbtn{
-  padding: 3px;
-  margin: 5px;width: 70%;
-  border-radius: 7px;
-  background-color: black;
-  border-color: black;
+padding: 3px;
+margin: 5px;
+border-radius: 7px;
+background-color: black;
+border-color: black;
 }
 
 
