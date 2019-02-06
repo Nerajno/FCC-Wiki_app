@@ -75,7 +75,7 @@ height: 100vh;
 
  .container-nav{
   color: white;
-  width: 95%;
+  width: 100%;
 }
 
 .Twtbtn{
@@ -100,7 +100,7 @@ li.wBtn {
 /* Start of Wiki-Content*/
 .wikiContent{
 	height: auto;
-	width: 70%;
+	width: 80%;
 	margin-left: auto;
   margin-right:auto;
   margin-top:4%;
@@ -137,7 +137,7 @@ li.wBtn {
 /*results section */
 #results{
 margin: auto;
-width: 96%;
+width: 80%;
 }
 
 /*Search Box = Icon fix*/
