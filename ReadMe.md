@@ -24,3 +24,9 @@ Shout out to following person/s and crews :
 - [x] Background resizes after search.
 - [ ] The mobile version needs help( Needs a better design for mobile version).
 - [ ] Results should be in something that says "Search results for {term searched for}" in cards.
+
+## Final Documentation Bugs
+
+- [ ] Using Github specs to make a proper markdown.
+- [ ] Include links to the live code.
+- [ ] Include screenshots of the program .
