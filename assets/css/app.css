@@ -23,7 +23,8 @@ height: 100vh;
   -moz-background-size: 100%;
   background-size: cover;
   background-repeat:no-repeat;
-  background-position: 50% 50%
+  background-position: 50% 50%;
+  background-attachment: fixed;
   -o-background-size: 100%;
   padding-top: 25px;
   margin-top: 100px;
@@ -44,6 +45,10 @@ height: 100vh;
  width: 90vw;
  }
 
+ .card {
+   margin-left: auto;
+   margin-right: auto;
+ }
 
 }
 
@@ -196,6 +201,10 @@ input::-webkit-input-placeholder {
   margin: 25px;
 }
 
+#cardh2{
+  color: #999;
+}
+
 .card:hover {
   color: rgba(6, 1, 1, 0.75);
   background-color:#3B81BF;
@@ -208,6 +217,7 @@ input::-webkit-input-placeholder {
     color: #fff;
     padding: 5px;
 }
+
 
 a:hover{
   color:#fff;
