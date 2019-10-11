@@ -20,7 +20,13 @@ Shout out to following person/s and crews :
 
 ## Bugs
 
-- [ ] There needs to be a reset button atop the produced search results.
 - [x] Background resizes after search.
+
+### UI Tweaks
 - [ ] The mobile version needs help( Needs a better design for mobile version).
-- [ ] Results should be in something that says "Search results for {term searched for}" in cards.
+- [ ] Results should say above cards :  "Search results for #searchterm."
+- [ ] There needs to be a reset button atop the produced search results.
+- [ ] Fix the color of the button text for random.
+- [ ] Fix the twitter button margin.
+
+
