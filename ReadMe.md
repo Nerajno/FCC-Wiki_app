@@ -1,4 +1,4 @@
-Wikipedia Viewer  - Version 0.22
+### Wikipedia Viewer  - Version 0.27
 This is the Wikipedia Viewer  from Free Code Camp's Front Certificate, through it's iteration it has used a couple of ideas and code from other places. The code is abit better than the last challenge and its a bit prettier but it wrks.  
 
 Please right click as Github currents doesn't support open in a new tab
@@ -20,7 +20,7 @@ Shout out to following person/s and crews :
 -Esterling and Toby
 
 ##Bugs
-- There needs to be a reset button atop the produced search results.
-- Background resizes after search
-- The mobile version needs help( Needs a better design for mobile version)
-- Results should be in something that says "Search results for {term searched for}" in cards
+- [ ] There needs to be a reset button atop the produced search results.
+- [x] Background resizes after search
+- [ ] The mobile version needs help( Needs a better design for mobile version)
+- [ ] Results should be in something that says "Search results for {term searched for}" in cards
