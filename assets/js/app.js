@@ -1,5 +1,4 @@
 var searchTerm;
-// I really need to make better comments... trying to figure out why I defined searchTerm
 
 $(document).ready(function() {
   $('#search').click(function() {
@@ -22,7 +21,7 @@ $(document).ready(function() {
         console.log(data);
       },
       error: function(errorMessage) {
-        alert("Error, Api not connected");
+        alert("Empty Search query");
       }
     });
   });
