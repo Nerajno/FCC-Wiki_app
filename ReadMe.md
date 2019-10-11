@@ -4,13 +4,12 @@ This is the Wikipedia Viewer  from Free Code Camp's Front Certificate, through i
 Please right click as Github currents doesn't support open in a new tab
 [https://nerajno.github.io/FCC-Wiki_app/]
 
-
 ## Built With
 - Font Awesome version 4.5.0 and Bootstrap 3.3.6.
 - Contains images from Pexel.org
 - The Wikipedia api
 
-### LICENSE-
+### LICENSE
 Please feel free to use the this code as you need to.
 This repository adheres to the MIT License.
 
@@ -19,8 +18,9 @@ Shout out to following person/s and crews :
 -FCC and FCC ATL
 -Esterling and Toby
 
-##Bugs
+## Bugs
+
 - [ ] There needs to be a reset button atop the produced search results.
-- [x] Background resizes after search
-- [ ] The mobile version needs help( Needs a better design for mobile version)
-- [ ] Results should be in something that says "Search results for {term searched for}" in cards
+- [x] Background resizes after search.
+- [ ] The mobile version needs help( Needs a better design for mobile version).
+- [ ] Results should be in something that says "Search results for {term searched for}" in cards.
