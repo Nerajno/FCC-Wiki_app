@@ -24,5 +24,3 @@ Shout out to following persons or groups : freeCodeCamp and freeCodeCamp ATL, Es
 - [x] Background resizes after search.
 - [x] The mobile version needs help( Needs a better design for mobile version).
 - [ ] Results should be in something that says "Search results for {term searched for}" in cards.
-
-https://badgen.net/github/commits/micromatch/micromatch
