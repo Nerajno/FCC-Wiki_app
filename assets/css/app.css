@@ -134,7 +134,8 @@ li.wBtn {
 	align:center;
 }
 
-.btn-block{
+.btn-block,
+.wiki-random{
   width: 70%;
   color:#fff;
   text-transform:uppercase;
