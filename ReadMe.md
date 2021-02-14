@@ -21,7 +21,10 @@ Shout out to following persons or groups : freeCodeCamp and freeCodeCamp ATL, Es
 
 ### Bugs
 
-- [ ] There needs to be a reset button atop the produced search results.
+
 - [x] Background resizes after search.
 - [x] The mobile version needs help( Needs a better design for mobile version).
+
+### Maybe Later 
+- [ ] There needs to be a reset button atop the produced search results.
 - [ ] Results should be in something that says "Search results for {term searched for}" in cards.
