@@ -1,231 +1,240 @@
- body{
-background-image: url("https://farm5.staticflickr.com/4422/37069229655_a025bda3a7_o.jpg");
--webkit-background-size: 100%;
--moz-background-size: 100%;
-background-size: cover;
-object-fit: cover;
-background-repeat:no-repeat;
-background-attachment: fixed;
--o-background-size: 100%;
-padding-top: 25px;
-margin-top: 100px;
-/*position: relative;*/  /* NOTE: this fixed the centering background image issue */
-background-position: center;
-height: 100vh;
-}
+ body {
+   background-image: url("https://farm5.staticflickr.com/4422/37069229655_a025bda3a7_o.jpg");
+   -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   background-size: cover;
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   -o-background-size: 100%;
+   padding-top: 25px;
+   margin-top: 100px;
+   /*position: relative;*/
+   /* NOTE: this fixed the centering background image issue */
+   background-position: center;
+   height: 100vh;
+ }
 
-/*Smart phones */
-@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
+ /*Smart phones */
+ @media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
 
-  body{
-  background-image: url("https://farm5.staticflickr.com/4422/37069229655_a025bda3a7_o.jpg");
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
-  background-attachment: fixed;
-  -o-background-size: 100%;
-  padding-top: 25px;
-  margin-top: 100px;
-  position: relative;
-  height: 100vh;
-  }
+   body {
+     background-image: url("https://farm5.staticflickr.com/4422/37069229655_a025bda3a7_o.jpg");
+     -webkit-background-size: 100%;
+     -moz-background-size: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-attachment: fixed;
+     -o-background-size: 100%;
+     padding-top: 25px;
+     margin-top: 100px;
+     position: relative;
+     height: 100vh;
+   }
 
-  header-stuff{
-  	font-family: 'Roboto', sans-serif;
-  	color: #337ab7;
-    text-align: center;
-    padding-bottom: 7%;
-    font-size: 1em;
-  }
+   header-stuff {
+     font-family: 'Roboto', sans-serif;
+     color: #337ab7;
+     text-align: center;
+     padding-bottom: 7%;
+     font-size: 1em;
+   }
 
-#results{
- margin: auto;
- width: 90vw;
+   #results {
+     margin: auto;
+     width: 90vw;
+   }
+
+   .card {
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+ }
+
+ /* NOTE: make different bckgrnd positions 4 different screen sizes or play around with cover[stretch  it out ] and contain [fit within the width or maybe height]  */
+
+ /* Start of Navbar Stuff */
+ .navbar-inverse {
+   font-family: 'Montserrat', sans-serif;
+   margin: auto;
+ }
+
+ .navbar-inverse .navbar-brand:focus,
+ .navbar-inverse .navbar-brand:hover {
+   color: #3B81BF;
+   font-size: larger;
+ }
+
+ .navbar-inverse .navbar-nav>li>a {
+   color: #3B81BF;
+ }
+
+ .dropdown {
+   color: #3B81BF;
+   text-transform: uppercase;
+ }
+
+ .dropdown-menu>li>a {
+   color: #3B81BF;
+   text-transform: uppercase;
+ }
+
+ .container-nav {
+   color: white;
+   width: 95%;
+ }
+
+ .Twtbtn {
+   padding: 3px;
+   margin: 5px;
+   border-radius: 7px;
+   background-color: black;
+   border-color: black;
+ }
+
+
+ .btn-navbar {
+   background-color: #f0641f;
+   color: black;
+ }
+
+ li.wBtn {
+   display: flex;
+ }
+
+ /*End of NavBar Stuff*/
+
+ /* Start of Wiki-Content*/
+ .wikiContent {
+   height: auto;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 4%;
+   background-color: rgba(0, 0, 0, 0.75);
+   box-shadow: 0 0 0px 3px #337ab7;
+   border-radius: 5px;
+ }
+
+ .fa-free-code-camp {
+   color: #006400;
+ }
+
+ .header-stuff {
+   font-family: 'Roboto', sans-serif;
+   color: #337ab7;
+   text-align: center;
+   padding-bottom: 7%;
+ }
+
+ .col-md-6 {
+   padding: 20px 0;
+ }
+
+ .btn {
+   align: center;
+ }
+
+ .btn-block {
+   width: 70%;
+   color: #fff;
+   text-transform: uppercase;
+ }
+
+ /*results section */
+ #results {
+   margin: auto;
+   width: 80%;
+ }
+
+ /*Search Box = Icon fix*/
+ input {
+   outline: none;
+ }
+
+ input[type=text] {
+   -webkit-appearance: textfield;
+   box-sizing: content-box;
+   font-family: inherit;
+   font-size: 100%;
+ }
+
+ input::-webkit-search-decoration,
+ input::-webkit-search-cancel-button {
+   display: none;
+ }
+
+ input[type=text] {
+   background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+   border: solid 1px #ccc;
+   padding: 9px 10px 9px 32px;
+   width: 80%;
+   -webkit-border-radius: 10em;
+   -moz-border-radius: 10em;
+   border-radius: 10em;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   transition: all .5s;
+ }
+
+ input[type=text]:focus {
+   width: 130px;
+   background-color: #fff;
+   border-color: #66CC75;
+   -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+   -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+   box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+   width: 70%;
+ }
+
+ input:-moz-placeholder {
+   color: #999;
+ }
+
+ input::-webkit-input-placeholder {
+   color: #999;
  }
 
  .card {
-   margin-left: auto;
-   margin-right: auto;
+   color: #3B81BF;
+   font-size: medium;
+   text-align: justify;
+   background-color: rgba(6, 1, 1, 0.75);
+   padding: 3%;
+   border-radius: 7px;
+   margin: 25px;
  }
 
-}
+ #cardh2 {
+   color: #999;
+ }
 
-/* NOTE: make different bckgrnd positions 4 different screen sizes or play around with cover[stretch  it out ] and contain [fit within the width or maybe height]  */
-
-/* Start of Navbar Stuff */
-.navbar-inverse{
-  font-family: 'Montserrat', sans-serif;
-  margin: auto;
-}
-
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
-  color:#3B81BF;
-  font-size: larger;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  color: #3B81BF;
-}
-
-.dropdown{
-  color: #3B81BF;
-  text-transform:uppercase;
-}
-
-.dropdown-menu>li>a{
-  color: #3B81BF;
-  text-transform:uppercase;
-}
-
- .container-nav{
-  color: white;
-  width: 100%;
-}
-
-.Twtbtn{
-padding: 3px;
-margin: 5px;
-border-radius: 7px;
-background-color: black;
-border-color: black;
-}
+ .card:hover {
+   color: rgba(6, 1, 1, 0.75);
+   background-color: #3B81BF;
+   border: 2px solid rgba(6, 1, 1, 0.75);
+ }
 
 
-.btn-navbar{
-  background-color: #f0641f;
-  color: black;
-}
+ .highlight {
+   text-decoration: none;
+   color: #fff;
+   padding: 5px;
+ }
+ 
+ #randomwiki{
+   color: white;
+   text-decoration: none;
+ } 
 
-li.wBtn {
-    display: flex;
-}
-/*End of NavBar Stuff*/
+ a:hover {
+   color: #fff;
+   font-style: italic;
+ }
 
-/* Start of Wiki-Content*/
-.wikiContent{
-	height: auto;
-	width: 80%;
-	margin-left: auto;
-  margin-right:auto;
-  margin-top:4%;
-  background-color: rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 0px 3px #337ab7;
-  border-radius: 5px;
-	}
-
-.fa-free-code-camp{
-	color:#006400;
-}
-
-.header-stuff{
-	font-family: 'Roboto', sans-serif;
-	color: #337ab7;
-  text-align: center;
-  padding-bottom: 7%;
-}
-
-.col-md-6 {
-	padding: 20px 0;
-}
-
-.btn {
-	align:center;
-}
-
-.btn-block,
-.wiki-random{
-  width: 70%;
-  color:#fff;
-  text-transform:uppercase;
-}
-
-/*results section */
-#results{
-margin: auto;
-width: 80%;
-}
-
-/*Search Box = Icon fix*/
-input {
-	outline: none;
-}
-input[type=text] {
-	-webkit-appearance: textfield;
-	box-sizing: content-box;
-	font-family: inherit;
-	font-size: 100%;
-}
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-	display: none;
-}
-
-input[type=text] {
-	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-	border: solid 1px #ccc;
-	padding: 9px 10px 9px 32px;
-	width: 80%;
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
-	border-radius: 10em;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-}
-
-input[type=text]:focus {
-	width: 130px;
-	background-color: #fff;
-	border-color: #66CC75;
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
-  width: 70%;
-}
-
-input:-moz-placeholder {
-	color: #999;
-}
-input::-webkit-input-placeholder {
-	color: #999;
-}
-
-.card {
-  color:#3B81BF;
-  font-size: medium;
-  text-align: justify;
-  background-color: rgba(6, 1, 1, 0.75);
-  padding: 3%;
-  border-radius: 7px;
-  margin: 25px;
-}
-
-#cardh2{
-  color: #999;
-}
-
-.card:hover {
-  color: rgba(6, 1, 1, 0.75);
-  background-color:#3B81BF;
-  border: 2px solid  rgba(6, 1, 1, 0.75);
-}
-
-
-.highlight {
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-}
-
-
-a:hover{
-  color:#fff;
-  font-style: italic;
-}
-
-/*Footer*/
-.footer{
-  color:#fff;
-}
+ /*Footer*/
+ .footer {
+   color: #fff;
+ }

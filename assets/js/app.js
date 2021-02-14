@@ -25,7 +25,7 @@ $(document).ready(function() {
       }
     });
   });
-  // trigger submit on use of enter key
+  // Trigger submit on use of  the Enter key
   $("#searchTerm").keypress(function(e) {
     if (e.which === 13) {
       $("#search").click();
@@ -33,3 +33,5 @@ $(document).ready(function() {
     }
   });
 });
+
+
