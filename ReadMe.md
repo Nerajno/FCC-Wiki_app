@@ -5,6 +5,7 @@ Please right click as Github currents doesn't support open in a new tab
 [https://nerajno.github.io/FCC-Wiki_app/]
 
 ### Screenshot
+![Image of Screenshot](https://github.com/Nerajno/FCC-Wiki_app/blob/master/wikiViewer.png)
 
 ### Built With
 - Font Awesome version 4.5.0 and Bootstrap 3.3.6.
